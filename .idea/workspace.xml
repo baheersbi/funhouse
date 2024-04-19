@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6075b7f-1278-4f2c-863c-6ae65dd0c15a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b1557ed6-84d2-44ff-b554-f6b115a4638d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b1557ed6-84d2-44ff-b554-f6b115a4638d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b1557ed6-84d2-44ff-b554-f6b115a4638d/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b1557ed6-84d2-44ff-b554-f6b115a4638d/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b1557ed6-84d2-44ff-b554-f6b115a4638d/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b1557ed6-84d2-44ff-b554-f6b115a4638d/storage_v2/_src_/schema/suppliers.J0Cj_g.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b1557ed6-84d2-44ff-b554-f6b115a4638d/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b1557ed6-84d2-44ff-b554-f6b115a4638d/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb36197b-7300-4c84-a080-0952da32aa41.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb36197b-7300-4c84-a080-0952da32aa41/storage_v2/_src_/schema/datapulse.L2ZH6w.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb36197b-7300-4c84-a080-0952da32aa41/storage_v2/_src_/schema/fundata.qaWf4Q.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb36197b-7300-4c84-a080-0952da32aa41/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb36197b-7300-4c84-a080-0952da32aa41/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb36197b-7300-4c84-a080-0952da32aa41/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb36197b-7300-4c84-a080-0952da32aa41/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb36197b-7300-4c84-a080-0952da32aa41/storage_v2/_src_/schema/sales.DEmCBg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb36197b-7300-4c84-a080-0952da32aa41/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eb36197b-7300-4c84-a080-0952da32aa41/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713513046107</updated>
-      <workItem from="1713513047164" duration="3292000" />
+      <workItem from="1713513047164" duration="3936000" />
     </task>
     <servers />
   </component>
