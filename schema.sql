@@ -67,7 +67,7 @@
 
 
 use datapulse;
-describe datapulse.Vendors
+describe datapulse.Vendors;
 
 insert into Vendors(VendorName, Address, ContactPerson) values("Carol", "Neukolln 45", "Christoph");
 insert into Vendors values("Dior", "Spandau 45", "Alex");
@@ -81,3 +81,11 @@ INSERT INTO datapulse.Vendors (VendorName, Address, ContactPerson) VALUES ('Tata
 
 
 select * from Vendors;
+
+select Vendors.VendorName  from Vendors;
+select Address  from Vendors;
+
+select * from Vendors WHERE VendorName="H&M";
+select * from Vendors WHERE LIKE Vendor;
+
+select * from Products WHERE Price BETWEEN 10 AND 30 ORDER BY Price ASC;
