@@ -7,6 +7,7 @@ CREATE TABLE Stores (
                         Contact VARCHAR(255)
 );
 
+use datapulse;
 create table Employees
 (
     EmployeeID     int auto_increment
