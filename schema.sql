@@ -89,3 +89,5 @@ select * from Vendors WHERE VendorName="H&M";
 select * from Vendors WHERE LIKE Vendor;
 
 select * from Products WHERE Price BETWEEN 10 AND 30 ORDER BY Price ASC;
+
+SELECT * from Vendors WHERE NOT VendorName="Zara" AND NOT VendorName="Tata";
