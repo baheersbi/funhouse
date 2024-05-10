@@ -26,8 +26,8 @@ SELECT
     Price,
     VendorName,
     CASE VendorName
-        WHEN 'VendorA' THEN Price * 0.9 -- 10% discount for VendorA
-        WHEN 'VendorB' THEN Price * 0.85 -- 15% discount for VendorB
+        WHEN 'Pet Paradise' THEN Price * 0.9 -- 10% discount for VendorA
+        WHEN 'Ready Tools' THEN Price * 0.85 -- 15% discount for VendorB
         ELSE Price
         END AS DiscountedPrice
 FROM
