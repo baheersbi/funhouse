@@ -1,4 +1,11 @@
 # create database datapulse;
+create table if not exists Vendors
+(
+    VendorName    varchar(255) not null
+        primary key,
+    Address       varchar(255) not null,
+    ContactPerson varchar(255) not null
+);
 
 CREATE TABLE Stores (
                         StoreID INT AUTO_INCREMENT PRIMARY KEY,
@@ -6,8 +13,6 @@ CREATE TABLE Stores (
                         Location VARCHAR(255) NOT NULL,
                         Contact VARCHAR(255)
 );
-
-use datapulse;
 create table Employees
 (
     EmployeeID     int auto_increment
@@ -28,7 +33,7 @@ create table Employees
         foreign key (SupervisorID) references Employees (EmployeeID)
 );
 
-create table if not exists datapulse.Products
+create table if not exists Products
 (
     Name        varchar(255)   not null
         primary key,
@@ -37,33 +42,27 @@ create table if not exists datapulse.Products
     Description text           null,
     VendorName  varchar(255)   null,
     constraint Products_ibfk_1
-        foreign key (VendorName) references datapulse.Vendors (VendorName)
+        foreign key (VendorName) references Vendors (VendorName)
 );
 
 create index VendorName
-    on datapulse.Products (VendorName);
+    on Products (VendorName);
 
-create table if not exists datapulse.StoreProducts
+create table if not exists StoreProducts
 (
     StoreID     int          not null,
     ProductName varchar(255) not null,
     primary key (StoreID, ProductName),
     constraint StoreProducts_ibfk_1
-        foreign key (StoreID) references datapulse.Stores (StoreID),
+        foreign key (StoreID) references Stores (StoreID),
     constraint StoreProducts_ibfk_2
-        foreign key (ProductName) references datapulse.Products (Name)
+        foreign key (ProductName) references Products (Name)
 );
 
 create index ProductName
-    on datapulse.StoreProducts (ProductName);
+    on StoreProducts (ProductName);
 
-create table if not exists datapulse.Vendors
-(
-    VendorName    varchar(255) not null
-        primary key,
-    Address       varchar(255) not null,
-    ContactPerson varchar(255) not null
-);
+
 
 
 # use datapulse;
